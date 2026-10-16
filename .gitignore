@@ -1,0 +1,16 @@
+# Python's private toolbox for this project (rebuildable, large)
+.venv/
+
+# Data: raw and processed. Too big for GitHub; rebuilt by our code
+data/
+*.pkl
+*.h5
+*.zip
+
+# Files Python and Jupyter make automatically
+__pycache__/
+.ipynb_checkpoints/
+
+# Mac and editor clutter
+.DS_Store
+.vscode/
