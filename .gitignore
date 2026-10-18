@@ -14,3 +14,7 @@ __pycache__/
 # Mac and editor clutter
 .DS_Store
 .vscode/
+
+# Created automatically when the package is installed
+*.egg-info/
+
