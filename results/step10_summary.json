@@ -1,0 +1,336 @@
+{
+  "agreement": {
+    "FFT baseline": {
+      "MAE (bpm)": 17.796,
+      "RMSE (bpm)": 30.095,
+      "MAPE (%)": 17.973,
+      "bias (bpm)": -15.013,
+      "lower limit of agreement (bpm)": -66.136,
+      "upper limit of agreement (bpm)": 36.109,
+      "95th percentile error (bpm)": 70.162,
+      "Pearson r": 0.4,
+      "within 5 bpm (%)": 53.611,
+      "within 5 bpm or 10% (%)": 57.644
+    },
+    "Gradient boosting": {
+      "MAE (bpm)": 7.483,
+      "RMSE (bpm)": 12.946,
+      "MAPE (%)": 8.102,
+      "bias (bpm)": -0.788,
+      "lower limit of agreement (bpm)": -26.115,
+      "upper limit of agreement (bpm)": 24.54,
+      "95th percentile error (bpm)": 29.657,
+      "Pearson r": 0.825,
+      "within 5 bpm (%)": 61.496,
+      "within 5 bpm or 10% (%)": 71.455
+    },
+    "CNN (1 network)": {
+      "MAE (bpm)": 5.959,
+      "RMSE (bpm)": 12.497,
+      "MAPE (%)": 6.701,
+      "bias (bpm)": -0.298,
+      "lower limit of agreement (bpm)": -24.785,
+      "upper limit of agreement (bpm)": 24.188,
+      "95th percentile error (bpm)": 27.756,
+      "Pearson r": 0.848,
+      "within 5 bpm (%)": 73.458,
+      "within 5 bpm or 10% (%)": 82.245
+    },
+    "CNN ensemble (3)": {
+      "MAE (bpm)": 5.591,
+      "RMSE (bpm)": 11.358,
+      "MAPE (%)": 6.291,
+      "bias (bpm)": -0.326,
+      "lower limit of agreement (bpm)": -22.578,
+      "upper limit of agreement (bpm)": 21.926,
+      "95th percentile error (bpm)": 25.382,
+      "Pearson r": 0.871,
+      "within 5 bpm (%)": 73.6,
+      "within 5 bpm or 10% (%)": 82.523
+    }
+  },
+  "mae_by_activity": {
+    "sitting": {
+      "FFT baseline": 2.7,
+      "Gradient boosting": 3.5,
+      "CNN (1 network)": 3.0,
+      "CNN ensemble (3)": 2.9
+    },
+    "working": {
+      "FFT baseline": 8.0,
+      "Gradient boosting": 3.8,
+      "CNN (1 network)": 3.1,
+      "CNN ensemble (3)": 2.9
+    },
+    "driving": {
+      "FFT baseline": 12.2,
+      "Gradient boosting": 5.3,
+      "CNN (1 network)": 4.1,
+      "CNN ensemble (3)": 3.8
+    },
+    "lunch": {
+      "FFT baseline": 13.2,
+      "Gradient boosting": 5.2,
+      "CNN (1 network)": 4.6,
+      "CNN ensemble (3)": 4.3
+    },
+    "cycling": {
+      "FFT baseline": 27.9,
+      "Gradient boosting": 9.8,
+      "CNN (1 network)": 5.7,
+      "CNN ensemble (3)": 5.5
+    },
+    "transition": {
+      "FFT baseline": 22.2,
+      "Gradient boosting": 9.1,
+      "CNN (1 network)": 7.1,
+      "CNN ensemble (3)": 6.7
+    },
+    "walking": {
+      "FFT baseline": 27.8,
+      "Gradient boosting": 10.2,
+      "CNN (1 network)": 8.5,
+      "CNN ensemble (3)": 7.9
+    },
+    "stairs": {
+      "FFT baseline": 37.8,
+      "Gradient boosting": 17.0,
+      "CNN (1 network)": 11.6,
+      "CNN ensemble (3)": 10.8
+    },
+    "table soccer": {
+      "FFT baseline": 30.2,
+      "Gradient boosting": 14.0,
+      "CNN (1 network)": 14.5,
+      "CNN ensemble (3)": 13.4
+    }
+  },
+  "big_error_anatomy_percent": {
+    "FFT baseline": {
+      "half or double the true HR": 8.3,
+      "locked onto a motion rhythm": 13.7,
+      "other big error": 10.7,
+      "small error (<= 20 bpm)": 67.3
+    },
+    "Gradient boosting": {
+      "half or double the true HR": 0.1,
+      "locked onto a motion rhythm": 3.7,
+      "other big error": 6.9,
+      "small error (<= 20 bpm)": 89.3
+    },
+    "CNN (1 network)": {
+      "half or double the true HR": 0.7,
+      "locked onto a motion rhythm": 1.8,
+      "other big error": 5.0,
+      "small error (<= 20 bpm)": 92.5
+    },
+    "CNN ensemble (3)": {
+      "half or double the true HR": 0.3,
+      "locked onto a motion rhythm": 1.8,
+      "other big error": 4.9,
+      "small error (<= 20 bpm)": 92.9
+    }
+  },
+  "per_person": {
+    "S1": {
+      "age": 34,
+      "gender": "m",
+      "height_cm": 182.0,
+      "weight_kg": 78.0,
+      "skin_type": 3,
+      "sport": 6,
+      "MAE: FFT baseline": 11.64,
+      "MAE: Gradient boosting": 6.9,
+      "MAE: CNN (1 network)": 6.23,
+      "MAE: CNN ensemble (3)": 5.92
+    },
+    "S2": {
+      "age": 28,
+      "gender": "m",
+      "height_cm": 189.0,
+      "weight_kg": 80.0,
+      "skin_type": 3,
+      "sport": 5,
+      "MAE: FFT baseline": 14.11,
+      "MAE: Gradient boosting": 5.25,
+      "MAE: CNN (1 network)": 5.26,
+      "MAE: CNN ensemble (3)": 4.9
+    },
+    "S3": {
+      "age": 25,
+      "gender": "m",
+      "height_cm": 170.0,
+      "weight_kg": 60.0,
+      "skin_type": 3,
+      "sport": 5,
+      "MAE: FFT baseline": 17.05,
+      "MAE: Gradient boosting": 4.08,
+      "MAE: CNN (1 network)": 3.39,
+      "MAE: CNN ensemble (3)": 3.16
+    },
+    "S4": {
+      "age": 25,
+      "gender": "m",
+      "height_cm": 168.0,
+      "weight_kg": 57.0,
+      "skin_type": 4,
+      "sport": 5,
+      "MAE: FFT baseline": 20.68,
+      "MAE: Gradient boosting": 6.46,
+      "MAE: CNN (1 network)": 7.75,
+      "MAE: CNN ensemble (3)": 7.2
+    },
+    "S5": {
+      "age": 21,
+      "gender": "f",
+      "height_cm": 180.0,
+      "weight_kg": 70.0,
+      "skin_type": 3,
+      "sport": 4,
+      "MAE: FFT baseline": 42.72,
+      "MAE: Gradient boosting": 20.8,
+      "MAE: CNN (1 network)": 8.65,
+      "MAE: CNN ensemble (3)": 8.59
+    },
+    "S6": {
+      "age": 37,
+      "gender": "f",
+      "height_cm": 176.0,
+      "weight_kg": 70.0,
+      "skin_type": 3,
+      "sport": 1,
+      "MAE: FFT baseline": 24.78,
+      "MAE: Gradient boosting": 7.77,
+      "MAE: CNN (1 network)": 5.43,
+      "MAE: CNN ensemble (3)": 4.99
+    },
+    "S7": {
+      "age": 21,
+      "gender": "f",
+      "height_cm": 168.0,
+      "weight_kg": 58.0,
+      "skin_type": 3,
+      "sport": 2,
+      "MAE: FFT baseline": 8.45,
+      "MAE: Gradient boosting": 3.93,
+      "MAE: CNN (1 network)": 2.73,
+      "MAE: CNN ensemble (3)": 2.47
+    },
+    "S8": {
+      "age": 43,
+      "gender": "m",
+      "height_cm": 179.0,
+      "weight_kg": 70.0,
+      "skin_type": 3,
+      "sport": 5,
+      "MAE: FFT baseline": 16.01,
+      "MAE: Gradient boosting": 11.63,
+      "MAE: CNN (1 network)": 10.31,
+      "MAE: CNN ensemble (3)": 9.76
+    },
+    "S9": {
+      "age": 28,
+      "gender": "f",
+      "height_cm": 167.0,
+      "weight_kg": 60.0,
+      "skin_type": 4,
+      "sport": 5,
+      "MAE: FFT baseline": 25.2,
+      "MAE: Gradient boosting": 8.19,
+      "MAE: CNN (1 network)": 9.78,
+      "MAE: CNN ensemble (3)": 8.7
+    },
+    "S10": {
+      "age": 55,
+      "gender": "f",
+      "height_cm": 164.0,
+      "weight_kg": 56.0,
+      "skin_type": 4,
+      "sport": 5,
+      "MAE: FFT baseline": 14.03,
+      "MAE: Gradient boosting": 4.49,
+      "MAE: CNN (1 network)": 3.7,
+      "MAE: CNN ensemble (3)": 3.48
+    },
+    "S11": {
+      "age": 24,
+      "gender": "f",
+      "height_cm": 168.0,
+      "weight_kg": 62.0,
+      "skin_type": 3,
+      "sport": 5,
+      "MAE: FFT baseline": 25.02,
+      "MAE: Gradient boosting": 7.87,
+      "MAE: CNN (1 network)": 6.05,
+      "MAE: CNN ensemble (3)": 5.88
+    },
+    "S12": {
+      "age": 43,
+      "gender": "m",
+      "height_cm": 195.0,
+      "weight_kg": 105.0,
+      "skin_type": 3,
+      "sport": 5,
+      "MAE: FFT baseline": 13.7,
+      "MAE: Gradient boosting": 13.28,
+      "MAE: CNN (1 network)": 8.78,
+      "MAE: CNN ensemble (3)": 8.46
+    },
+    "S13": {
+      "age": 21,
+      "gender": "f",
+      "height_cm": 170.0,
+      "weight_kg": 63.0,
+      "skin_type": 3,
+      "sport": 6,
+      "MAE: FFT baseline": 8.8,
+      "MAE: Gradient boosting": 3.6,
+      "MAE: CNN (1 network)": 3.09,
+      "MAE: CNN ensemble (3)": 2.91
+    },
+    "S14": {
+      "age": 26,
+      "gender": "f",
+      "height_cm": 170.0,
+      "weight_kg": 67.0,
+      "skin_type": 3,
+      "sport": 4,
+      "MAE: FFT baseline": 13.51,
+      "MAE: Gradient boosting": 4.81,
+      "MAE: CNN (1 network)": 5.0,
+      "MAE: CNN ensemble (3)": 4.41
+    },
+    "S15": {
+      "age": 28,
+      "gender": "m",
+      "height_cm": 183.0,
+      "weight_kg": 79.0,
+      "skin_type": 2,
+      "sport": 5,
+      "MAE: FFT baseline": 13.34,
+      "MAE: Gradient boosting": 4.06,
+      "MAE: CNN (1 network)": 4.09,
+      "MAE: CNN ensemble (3)": 3.73
+    }
+  },
+  "paired_tests": [
+    {
+      "comparison": "CNN ensemble (3) vs FFT baseline",
+      "people improved": "15 of 15",
+      "median improvement (bpm)": 9.6,
+      "Wilcoxon p-value": 0.0001
+    },
+    {
+      "comparison": "CNN ensemble (3) vs Gradient boosting",
+      "people improved": "13 of 15",
+      "median improvement (bpm)": 0.98,
+      "Wilcoxon p-value": 0.0026
+    },
+    {
+      "comparison": "CNN ensemble (3) vs CNN (1 network)",
+      "people improved": "15 of 15",
+      "median improvement (bpm)": 0.31,
+      "Wilcoxon p-value": 0.0001
+    }
+  ]
+}
