@@ -10,7 +10,7 @@ WHOOP, or Oura-style device) while people go about real daily activities, and va
 **leave-one-subject-out** evaluation (every prediction is for a person the model never trained on):
 **26% lower error than the published Deep PPG CNN ensemble (7.65 bpm)** and **69% lower than
 standard FFT signal processing (17.9 bpm)**. A single network scores **6.04 ± 0.02 bpm** across three
-independent training runs.
+independent training runs. Built with an AI coding assistant, learning supervised by Elijah Schechter. 
 
 ![Scoreboard](figures/scoreboard.png)
 
