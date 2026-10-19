@@ -1,0 +1,21 @@
+# Runs the test suite on GitHub's computers every time you push.
+# The real dataset isn't on GitHub, so tests that need it are skipped there;
+# every other test (made-up signals with known answers) runs.
+name: tests
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install PyTorch (CPU version, smaller download)
+        run: pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - name: Install the project and pytest
+        run: pip install -e . pytest
+      - name: Run the tests
+        run: pytest -v

@@ -9,5 +9,11 @@ description = "Heart-rate estimation from wrist PPG on the PPG-DaLiA dataset"
 requires-python = ">=3.10"
 dependencies = ["numpy", "scipy", "pandas", "matplotlib", "scikit-learn", "torch"]
 
+[project.optional-dependencies]
+dev = ["pytest", "jupyter", "ipykernel"]
+
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

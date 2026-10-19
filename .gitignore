@@ -18,3 +18,5 @@ __pycache__/
 # Created automatically when the package is installed
 *.egg-info/
 
+# Created automatically when tests run
+.pytest_cache/
