@@ -1,0 +1,123 @@
+{
+  "exploration_loso_300_trees": {
+    "spectra + peaks": {
+      "plain": 8.82,
+      "snapped": 8.7
+    },
+    "+ peak history": {
+      "plain": 7.97,
+      "snapped": 7.8
+    },
+    "+ averages": {
+      "plain": 7.71,
+      "snapped": 7.53
+    }
+  },
+  "nested_loso_mae": 7.54,
+  "nested_per_subject_mae": {
+    "S1": 6.9,
+    "S2": 5.25,
+    "S3": 4.08,
+    "S4": 6.46,
+    "S5": 20.8,
+    "S6": 7.77,
+    "S7": 3.93,
+    "S8": 11.63,
+    "S9": 8.19,
+    "S10": 4.49,
+    "S11": 7.87,
+    "S12": 13.28,
+    "S13": 3.6,
+    "S14": 4.81,
+    "S15": 4.06
+  },
+  "nested_choices": {
+    "S1": {
+      "features": "+ averages",
+      "trees": 1000,
+      "snap": 10
+    },
+    "S2": {
+      "features": "+ averages",
+      "trees": 1000,
+      "snap": 10
+    },
+    "S3": {
+      "features": "+ averages",
+      "trees": 1000,
+      "snap": 10
+    },
+    "S4": {
+      "features": "+ averages",
+      "trees": 1000,
+      "snap": 10
+    },
+    "S5": {
+      "features": "+ peak history",
+      "trees": 1000,
+      "snap": 10
+    },
+    "S6": {
+      "features": "+ averages",
+      "trees": 1000,
+      "snap": 10
+    },
+    "S7": {
+      "features": "+ averages",
+      "trees": 1000,
+      "snap": 10
+    },
+    "S8": {
+      "features": "+ averages",
+      "trees": 1000,
+      "snap": 10
+    },
+    "S9": {
+      "features": "+ averages",
+      "trees": 1000,
+      "snap": 10
+    },
+    "S10": {
+      "features": "+ averages",
+      "trees": 1000,
+      "snap": 10
+    },
+    "S11": {
+      "features": "+ averages",
+      "trees": 1000,
+      "snap": 10
+    },
+    "S12": {
+      "features": "+ averages",
+      "trees": 1000,
+      "snap": 10
+    },
+    "S13": {
+      "features": "+ averages",
+      "trees": 1000,
+      "snap": 10
+    },
+    "S14": {
+      "features": "+ averages",
+      "trees": 1000,
+      "snap": 10
+    },
+    "S15": {
+      "features": "+ averages",
+      "trees": 1000,
+      "snap": 10
+    }
+  },
+  "nested_per_activity_mae": {
+    "transition": 9.12,
+    "sitting": 3.55,
+    "stairs": 16.97,
+    "table soccer": 14.03,
+    "cycling": 9.81,
+    "driving": 5.28,
+    "lunch": 5.22,
+    "walking": 10.18,
+    "working": 3.76
+  },
+  "within_5_bpm_percent": 61.5
+}
