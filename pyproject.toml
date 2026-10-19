@@ -7,7 +7,7 @@ name = "ppghr"
 version = "0.1.0"
 description = "Heart-rate estimation from wrist PPG on the PPG-DaLiA dataset"
 requires-python = ">=3.10"
-dependencies = ["numpy", "scipy", "pandas", "matplotlib", "scikit-learn"]
+dependencies = ["numpy", "scipy", "pandas", "matplotlib", "scikit-learn", "torch"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

@@ -1,0 +1,130 @@
+{
+  "CNN": {
+    "mae": 6.02,
+    "within_5_bpm_percent": 73.5,
+    "per_subject": {
+      "S1": 6.23,
+      "S2": 5.26,
+      "S3": 3.39,
+      "S4": 7.75,
+      "S5": 8.65,
+      "S6": 5.43,
+      "S7": 2.73,
+      "S8": 10.31,
+      "S9": 9.78,
+      "S10": 3.7,
+      "S11": 6.05,
+      "S12": 8.78,
+      "S13": 3.09,
+      "S14": 5.0,
+      "S15": 4.09
+    },
+    "per_activity": {
+      "transition": 7.11,
+      "sitting": 2.97,
+      "stairs": 11.58,
+      "table soccer": 14.54,
+      "cycling": 5.72,
+      "driving": 4.08,
+      "lunch": 4.57,
+      "walking": 8.49,
+      "working": 3.13
+    }
+  },
+  "CNN, snapped": {
+    "mae": 6.21,
+    "within_5_bpm_percent": 72.4,
+    "per_subject": {
+      "S1": 6.42,
+      "S2": 5.6,
+      "S3": 3.61,
+      "S4": 8.21,
+      "S5": 8.57,
+      "S6": 5.61,
+      "S7": 2.91,
+      "S8": 10.53,
+      "S9": 10.17,
+      "S10": 3.77,
+      "S11": 6.15,
+      "S12": 8.8,
+      "S13": 3.21,
+      "S14": 5.27,
+      "S15": 4.28
+    },
+    "per_activity": {
+      "transition": 7.24,
+      "sitting": 2.98,
+      "stairs": 11.54,
+      "table soccer": 15.05,
+      "cycling": 5.72,
+      "driving": 4.46,
+      "lunch": 4.88,
+      "walking": 8.59,
+      "working": 3.35
+    }
+  },
+  "Step 8 booster": {
+    "mae": 7.54,
+    "within_5_bpm_percent": 61.5,
+    "per_subject": {
+      "S1": 6.9,
+      "S2": 5.25,
+      "S3": 4.08,
+      "S4": 6.46,
+      "S5": 20.8,
+      "S6": 7.77,
+      "S7": 3.93,
+      "S8": 11.63,
+      "S9": 8.19,
+      "S10": 4.49,
+      "S11": 7.87,
+      "S12": 13.28,
+      "S13": 3.6,
+      "S14": 4.81,
+      "S15": 4.06
+    },
+    "per_activity": {
+      "transition": 9.12,
+      "sitting": 3.55,
+      "stairs": 16.97,
+      "table soccer": 14.03,
+      "cycling": 9.81,
+      "driving": 5.28,
+      "lunch": 5.22,
+      "walking": 10.18,
+      "working": 3.76
+    }
+  },
+  "CNN + booster average, snapped": {
+    "mae": 6.53,
+    "within_5_bpm_percent": 65.5,
+    "per_subject": {
+      "S1": 6.5,
+      "S2": 5.15,
+      "S3": 3.7,
+      "S4": 6.66,
+      "S5": 14.06,
+      "S6": 6.18,
+      "S7": 3.42,
+      "S8": 10.71,
+      "S9": 8.42,
+      "S10": 3.84,
+      "S11": 6.57,
+      "S12": 10.68,
+      "S13": 3.35,
+      "S14": 4.8,
+      "S15": 3.87
+    },
+    "per_activity": {
+      "transition": 7.71,
+      "sitting": 3.34,
+      "stairs": 13.2,
+      "table soccer": 13.62,
+      "cycling": 7.15,
+      "driving": 4.67,
+      "lunch": 4.86,
+      "walking": 9.04,
+      "working": 3.46
+    }
+  }
+}
